@@ -81,8 +81,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.1.1",
     "sweetalert2": "^9.17.1",
-    "sweetalert2-react-content": "^3.0.3",
-    "typescript": "^3.9.5"
+    "sweetalert2-react-content": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -99,11 +98,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [ ">0.2%", "not dead", "not op_mini all" ],
     "development": [
       "ie 11",
       "last 1 chrome version",
@@ -117,8 +112,6 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.0.0",
     "@storybook/react": "^5.3.19",
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
-    "@typescript-eslint/parser": "^2.23.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-config-react-app": "^5.2.0",
@@ -140,11 +133,7 @@
     }
   },
   "lint-staged": {
-    "*.+(js|jsx)": [
-      "eslint --fix"
-    ],
-    "*.+(js|jsx|json|css|md)": [
-      "prettier --write"
-    ]
+    "*.+(js|jsx)": [ "eslint --fix" ],
+    "*.+(js|jsx|json|css|md)": [ "prettier --write" ]
   }
 }
